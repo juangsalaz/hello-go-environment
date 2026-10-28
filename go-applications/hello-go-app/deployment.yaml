@@ -13,7 +13,7 @@ spec:
         app: hello-go-app
     spec:
       containers:
-      - name: hello-go-app
-        image: <image-name>:<tag>
+      - image: 313354/hello-go-app:v3
+        name: hello-go-app
         ports:
         - containerPort: 8080
